@@ -73,16 +73,6 @@
       // average.print()
 
 
-        const average = tf.tidy(() => {
-          const y = tf.tensor1d([1.0, 2.0, 3.0, 4.0])
-          const z = tf.ones([4]);
-          
-          return y.mul(z).add(z).square().mean()
-        })
-        average.print()
-
-    
-
 
 
 
